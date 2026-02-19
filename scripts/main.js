@@ -126,5 +126,10 @@ for (let hobby of obj1.hobbies) {
 
 // MARK: BUILT-IN OBJECTS
 console.log(Math.random) // Random number
-console.log(Math.floor(44.5)) // Truncate
 console.log(Math.PI) // The number Pi
+console.log(Math.floor(Math.PI)) // Truncate Pi
+console.log(Math.ceil(Math.PI)) // Truncate Pi up
+console.log(Math.round(Math.PI)) // Pi is rounded down
+console.log(Math.round(Math.E)) // e is rounded up
+
+console.log(new Date());

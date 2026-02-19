@@ -54,5 +54,14 @@ console.log(obj1.hobbies);
 console.log(null);
 
 // UNDEFINED
-let ant;
-console.log(ant);
+let itbe;
+console.log(itbe);
+
+// MARK: VARIABLE SCOPES
+function test() {
+    const obj1 = {nombre: "Lorem"};
+
+    console.log(obj1.surname); //apellid
+}
+
+test();

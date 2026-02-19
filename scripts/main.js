@@ -82,3 +82,18 @@ if (c == 42) {
 } else {
     console.log("C is neither 42 or 43");
 }
+
+switch(c) { // Don't forget to use break statements!
+    case 41:
+        console.log("C is 41");
+        break;
+    case 42:
+        console.log("C is 42");
+        break;
+    case 43:
+        console.log("C is 43");
+        break;
+    default:
+        console.log("C is neither 41, 42, or 43");
+        break;
+}

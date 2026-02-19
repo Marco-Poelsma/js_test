@@ -132,4 +132,12 @@ console.log(Math.ceil(Math.PI)) // Truncate Pi up
 console.log(Math.round(Math.PI)) // Pi is rounded down
 console.log(Math.round(Math.E)) // e is rounded up
 
-console.log(new Date());
+console.log(new Date().getDay());
+
+
+// MARK: DATA INPUT
+const yourName = prompt("What's your name? ")
+
+console.log(yourName);
+
+alert("Your name is " + yourName);

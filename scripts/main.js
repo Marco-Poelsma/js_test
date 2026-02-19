@@ -73,3 +73,12 @@ test();
  * Since global variables are dangerous, it is important to use let instead of var when we need to declare variables.
  */
 
+// MARK: CONDITIONALS
+
+if (c == 42) {
+    console.log("C is 42");
+} else if (c == 43) {
+    console.log("C is 43");
+} else {
+    console.log("C is neither 42 or 43");
+}

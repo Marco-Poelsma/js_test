@@ -115,10 +115,16 @@ do { // This loop will print once as the condition is checked after first iterat
 
 // FOR
 for (let i = 0; i < obj1.hobbies.length; i++) {
-    console.log("One of my hobbies is: ", obj1.hobbies[i]);
+    console.log("One of my hobbies is ", obj1.hobbies[i]);
 }
 
 // FOR OF (FOR-EACH)
 for (let hobby of obj1.hobbies) {
     console.log("One of my hobbies is ", hobby);
 }
+
+
+// MARK: BUILT-IN OBJECTS
+console.log(Math.random) // Random number
+console.log(Math.floor(44.5)) // Truncate
+console.log(Math.PI) // The number Pi

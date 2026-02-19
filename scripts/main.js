@@ -61,7 +61,15 @@ console.log(itbe);
 function test() {
     const obj1 = {nombre: "Lorem"};
 
-    console.log(obj1.surname); //apellid
+    console.log(obj1.surname); //surname is not defined in this scope
 }
 
 test();
+
+/**
+ * Here is where the difference between let and var resides.
+ * While var is a global variable available across all scopes,
+ * let is only allowed within its block's scope.
+ * Since global variables are dangerous, it is important to use let instead of var when we need to declare variables.
+ */
+

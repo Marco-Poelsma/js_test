@@ -75,6 +75,7 @@ test();
 
 // MARK: CONDITIONALS
 
+// IF ... ELSE IF ... ELSE
 if (c == 42) {
     console.log("C is 42");
 } else if (c == 43) {
@@ -83,6 +84,8 @@ if (c == 42) {
     console.log("C is neither 42 or 43");
 }
 
+
+// SWITCH-CASE
 switch(c) { // Don't forget to use break statements!
     case 41:
         console.log("C is 41");
@@ -96,4 +99,26 @@ switch(c) { // Don't forget to use break statements!
     default:
         console.log("C is neither 41, 42, or 43");
         break;
+}
+
+// MARK: LOOPS
+
+// WHILE
+while(false) { // This loop won't print anything as the condition is checked before first iteration.
+    console.log("Haiii!!! :333");
+}
+
+// DO-WHILE
+do { // This loop will print once as the condition is checked after first iteration.
+    console.log("Haii!!!!!!!!! :3333 ");
+} while (false);
+
+// FOR
+for (let i = 0; i < obj1.hobbies.length; i++) {
+    console.log("One of my hobbies is: ", obj1.hobbies[i]);
+}
+
+// FOR OF (FOR-EACH)
+for (let hobby of obj1.hobbies) {
+    console.log("One of my hobbies is ", hobby);
 }
